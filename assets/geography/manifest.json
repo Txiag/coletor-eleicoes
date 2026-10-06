@@ -1,0 +1,149 @@
+{
+  "sources": {
+    "municipio_tse_ibge.zip": {
+      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/municipio_tse_ibge/municipio_tse_ibge.zip",
+      "sha256": "2597bb2b01cb48f7cf4af083907d71c3297365c4af8cd951ebf721b3fb62e680",
+      "retrieved_at": "2026-10-04T01:05:43.480382+00:00"
+    },
+    "br.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=UF",
+      "sha256": "49ed6cc210a8f1111904201d036eeee8a6f033aba6c048b1c26457d7f8af372b",
+      "retrieved_at": "2026-10-04T01:05:43.940142+00:00"
+    },
+    "ac.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/AC?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "f7762617d6ec0626f2082a31aa2e44667fccff0a9a333d456b090f8ac4dee8d8",
+      "retrieved_at": "2026-10-04T01:05:44.289453+00:00"
+    },
+    "al.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/AL?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "da84a16511f8fd38159bceb9f69b721953e21ce1b8f2130155ee87d81c3c92a0",
+      "retrieved_at": "2026-10-04T01:05:44.642349+00:00"
+    },
+    "am.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/AM?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "b0ad8a32a60db78d0a6a8c05c65db19fcd0b228cd8dd2b8cef7e7b2c4160b5ce",
+      "retrieved_at": "2026-10-04T01:05:45.143638+00:00"
+    },
+    "ap.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/AP?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "59de18c2956407779e7d8b3aeaf1963c71e2aa9028c42451b7c66f63c7ce45bd",
+      "retrieved_at": "2026-10-04T01:05:45.525930+00:00"
+    },
+    "ba.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/BA?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "a40e226b7dcae99a4830bac5887847313b1b850d47749030ac766f5f9d10e1fc",
+      "retrieved_at": "2026-10-04T01:05:46.098046+00:00"
+    },
+    "ce.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/CE?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "8f0d89b31e2f59869a77383390f298ec9d6982177c880af9f9bb6be7b22b1c12",
+      "retrieved_at": "2026-10-04T01:05:46.568197+00:00"
+    },
+    "df.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/DF?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "fb72b121ee20d9434fae8ec9c39259b38a37175542abad3234c3ad6b5ccf566e",
+      "retrieved_at": "2026-10-04T01:05:46.910670+00:00"
+    },
+    "es.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/ES?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "c7e20e2a28dd24becc04bfde2b0c551625cd72f69896eaf808fffc9a48dabc97",
+      "retrieved_at": "2026-10-04T01:05:47.273276+00:00"
+    },
+    "go.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/GO?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "1e559754463aca730eab53c853203af965770d113bba1924d5819c25e267c6fa",
+      "retrieved_at": "2026-10-04T01:05:47.793244+00:00"
+    },
+    "ma.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/MA?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "aa53dd48cb848352f40785aad6b66b48adb2682d8b587538e9cb5e4c829be89f",
+      "retrieved_at": "2026-10-04T01:05:48.300720+00:00"
+    },
+    "mg.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/MG?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "47f75e4ddbe7df64bd6b36a86d2974ecf26b783126f55418ea796b3f5cb8e456",
+      "retrieved_at": "2026-10-04T01:05:48.916146+00:00"
+    },
+    "ms.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/MS?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "1784c2748b85cef3955626b227e32dc0bbc2e8daa528321f50e6d0158c1f070f",
+      "retrieved_at": "2026-10-04T01:05:49.376627+00:00"
+    },
+    "mt.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/MT?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "611fc0420b6014d839d80db36754fce11c006b693b34db4b3b4cce80495977e3",
+      "retrieved_at": "2026-10-04T01:05:49.898690+00:00"
+    },
+    "pa.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/PA?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "12aff41814de6f8cf2b29626131ad3308a8c4cb4ca722c396b0d277fc7a03121",
+      "retrieved_at": "2026-10-04T01:05:50.402884+00:00"
+    },
+    "pb.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/PB?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "2febcffc9dbe84529f9e309e41ca74c0eb98d747f774094e58efd7ea08eb40b1",
+      "retrieved_at": "2026-10-04T01:05:50.833938+00:00"
+    },
+    "pe.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/PE?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "e9e85710f1a1500e49666299fa971b58d4dc9d726b75d4718c90c5b0dc9576d9",
+      "retrieved_at": "2026-10-04T01:05:51.278057+00:00"
+    },
+    "pi.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/PI?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "f0c1816f88c147782a7c3cc9df86746eaad9ba8cc57e047d2b2b34b01ff12c49",
+      "retrieved_at": "2026-10-04T01:05:51.821259+00:00"
+    },
+    "pr.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/PR?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "f9528126a04a4604dc81c88883bd4629cdc8029f644186e4c6f70a40b8d52eed",
+      "retrieved_at": "2026-10-04T01:05:52.349848+00:00"
+    },
+    "rj.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/RJ?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "127f3efe0b00336509cebae91be294edc712b1831b250a320b8c47107f80eac2",
+      "retrieved_at": "2026-10-04T01:05:52.709439+00:00"
+    },
+    "rn.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/RN?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "8c6ea0c4f33ffee44e678096b2a9b2ca25b074996f718aee99111c23b917d222",
+      "retrieved_at": "2026-10-04T01:05:53.155480+00:00"
+    },
+    "ro.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/RO?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "ea3f5727fefb8b559566878dc3c4b03be462f872943ef16fb66ce4571d827269",
+      "retrieved_at": "2026-10-04T01:05:53.586433+00:00"
+    },
+    "rr.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/RR?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "40433cde067c78b2ca5c309a0d65936b204b3c1bfcc07fe717953c4830969531",
+      "retrieved_at": "2026-10-04T01:05:53.952904+00:00"
+    },
+    "rs.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/RS?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "ab14fe762e03ab843a4e817a768663d78fa5c425f1f0a0a9c5a96aba9f76fdd5",
+      "retrieved_at": "2026-10-04T01:05:54.463918+00:00"
+    },
+    "sc.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/SC?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "0cec7f5d2fbc728784d4c7ea40df9f229a67df883d65212f01ed0a6409e150ed",
+      "retrieved_at": "2026-10-04T01:05:55.124136+00:00"
+    },
+    "se.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/SE?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "7c3ca60a98b9b8069dbc83fc910148f0c5a580b379dd452dfbe415cbc2a36e1e",
+      "retrieved_at": "2026-10-04T01:05:55.491384+00:00"
+    },
+    "sp.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/SP?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "3272e7fab8ee955acd558682d8908c3d94bf9a8780d4cb80889600f0866c21a4",
+      "retrieved_at": "2026-10-04T01:05:56.056154+00:00"
+    },
+    "to.json": {
+      "url": "https://servicodados.ibge.gov.br/api/v3/malhas/estados/TO?formato=application/vnd.geo%2Bjson&qualidade=minima&periodo=2020&intrarregiao=municipio",
+      "sha256": "1b57f53db078489eacb48bf82371446a3333a33fec615104eb05092d2b8a9180",
+      "retrieved_at": "2026-10-04T01:05:56.606360+00:00"
+    }
+  }
+}

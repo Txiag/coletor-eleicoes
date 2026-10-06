@@ -1,0 +1,32 @@
+database = "data/apuracao-consolidada.sqlite3"
+interval_seconds = 30
+timeout_seconds = 20
+
+[results]
+enabled = true
+base_url = "https://resultados.tse.jus.br/oficial"
+cycle = "ele2026"
+poll = 3220
+phase = "official"
+ufs = []
+requests_per_second = 20
+max_local_results_per_cycle = 1000
+catalog_interval_seconds = 900
+
+[results.levels]
+brasil = true
+ufs = true
+municipios = false
+zonas = false
+
+[[endpoints]]
+name = "eleicoes"
+url = "https://resultados.tse.jus.br/oficial/comum/config/ele-c.json"
+
+[[endpoints]]
+name = "presidente-brasil-1-turno"
+url = "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json"
+
+[[endpoints]]
+name = "acompanhamento-brasil-1-turno"
+url = "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-e006257-ab.json"
